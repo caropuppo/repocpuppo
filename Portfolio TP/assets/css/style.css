@@ -1,0 +1,22 @@
+.button{
+    background-color:#e04356ed;  
+}
+.button:hover{
+    background-color: rgb(247, 162, 159);
+}
+.box.style1 {
+    margin-top: 36px;
+}
+.icon.featured {
+    color: #e04356;
+
+    }
+
+.carolina:hover{
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
