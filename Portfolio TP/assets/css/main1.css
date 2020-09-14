@@ -2014,6 +2014,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style4 form input[type=text],
+			.wrapper.style4 form input[type=email],
 			.wrapper.style4 form input[type=password],
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
@@ -2022,6 +2023,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
+				.wrapper.style4 form input[type=email],
 				.wrapper.style4 form input[type=password]:focus,
 				.wrapper.style4 form select:focus,
 				.wrapper.style4 form textarea:focus {
@@ -2074,7 +2076,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				color: #fff !important;
-				background: #383838;
+				background:#e043567d;
 			}
 
 			#nav a.active {
@@ -2342,7 +2344,7 @@ input, select, textarea {
 
 			.box {
 				padding: 30px 20px 30px 20px;
-				margin: 0 0 20px 0 !important;
+				margin: 0 0 20px 0;
 			}
 
 				.box h3 {
@@ -2372,7 +2374,9 @@ input, select, textarea {
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
-
+				.margincaro{
+					margin-top: 36px;
+				}
 		/* Wrappers */
 
 			.wrapper {
@@ -2395,7 +2399,7 @@ input, select, textarea {
 				}
 
 					#nav a:hover {
-						background-color: transparent;
+						background-color: #e043567d;
 					}
 
 		/* Articles */

@@ -68,10 +68,9 @@
 								<p>A través de campañas pagas en Facebook e Instagram con anuncios personalizados en función de los objetivos, le doy visibilidad al ecosistema digital con una estrategia definida y en base a la etapa del embudo de conversión en el que se encuentre el proyecto.</p>
 							</section>
 						</div>
-					</div>
-					<div class="row aln-center">
+					
 						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
+							<section class="box style1 margincaro" >
 								<span class="icon solid featured fa-sort-amount-up carolina"></span>
 								<h3>Campañas de Google Ads</h3>
 								<p>Gestiono la publicidad online en la red de Búsqueda, Display y Video para que tu producto o servicio esté presente entre los potenciales consumidores. En la red de búsqueda, analizo la competencia, busco las palabras claves adecuadas, redacto el anuncio y armo la campaña según el objetivo comercial.</p>
@@ -166,19 +165,19 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="#">
+							<form method="post" action="sendmail.php">
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="name" id="name" placeholder="Nombre*" required/>
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email*" required/>
+										<input type="email" name="email" id="email" placeholder="Email*" required/>
 									</div>
 									<div class="col-12">
 										<input type="text" name="subject" id="subject" placeholder="Asunto*" required />
 									</div>
 									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Mensaje*" required></textarea>
+										<textarea name="message" maxlength="300" style="resize: none;" id="message" placeholder="Mensaje*" required></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
